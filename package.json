@@ -1,0 +1,26 @@
+{
+  "name": "account-generator",
+  "version": "1.0.0",
+  "description": "A discord bot you can use to give accounts to your server's members",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "async": "^3.1.0",
+    "cors": "^2.8.5",
+    "discord.js": "^13.1.0",
+    "express": "^4.17.1",
+    "firstline": "^2.0.2",
+    "line-reader": "^0.4.0"
+  },
+  "engines": {
+    "node": "16.6.x"
+  }
+}
